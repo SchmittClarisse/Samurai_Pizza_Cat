@@ -14,7 +14,7 @@ OrderItem.destroy_all
 #Cart.destroy_all 
 
 
-10.times do |i|
+3.times do |i|
   Item.create(
     title:       Faker::Creature::Cat.name,
     description: Faker::Lorem.sentence(word_count: rand(2..5)),
